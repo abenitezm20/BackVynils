@@ -36,11 +36,11 @@ import { AlbumMusicianModule } from './albummusician/albummusician.module';
   imports: [  
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: process.env.DB_HOST || 'ec2-34-236-103-63.compute-1.amazonaws.com',
+      host: process.env.DB_HOST || 'ec2-35-169-11-108.compute-1.amazonaws.com',
       port: 5432,
-      username: 'dmfuirfutbnhet',
-      password: '5ed7a1c08c8ce82136ad54b2bc53d243b3c7b43e6f5477e690944c490a047064',
-      database: 'ddvr0t31rr2o5h',
+      username: 'bfeirtgduxdskm',
+      password: 'e6548f32ae95dad66729573962b90132aaf7e3133f0c9b2fb9bebd7dad7842be',
+      database: 'dahapr954gpvef',
       entities: [Album, CollectorAlbum, Band, Collector, Comment, Musician, Performer, PerformerPrize, Prize, Track,],
       dropSchema: true,
       synchronize: true,
